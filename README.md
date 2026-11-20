@@ -14,6 +14,9 @@ license: mit
 
 - [MONDO SDK使用简介](<open-beni-sdk-docs/MONDO SDK使用简介.md>)
 - [Beni SDK 开放协议手册（HTML）](open-beni-sdk-docs/protocol-reference.html)
+- [MONDO SDK User Guide (English)](<open-beni-sdk-docs/MONDO SDK User Guide.en.md>)
+- [SDK Protocol Reference (English)](open-beni-sdk-docs/protocol-reference.en.html)
+- [HMS Fault Code Reference (English)](open-beni-sdk-docs/hms-fault-codes.en.html)
 
 Canonical source: [Mondo-Robotics/open-beni](https://github.com/Mondo-Robotics/open-beni). Development and pull requests belong in this repository; the Hugging Face Space is a deployment of this source.
 
