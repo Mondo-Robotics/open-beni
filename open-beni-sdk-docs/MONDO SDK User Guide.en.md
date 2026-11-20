@@ -182,10 +182,10 @@ Read the SDK credential JSON exported by the app and connect to the robot's curr
 sequenceDiagram
     participant S as SDK host (client)
     participant R as Robot
-    Note over S,R: Open enabled in the app; SDK credentials valid
+    Note over S,R: Open enabled in the app, SDK credentials valid
     S->>R: TCP 1024: TLS pairing authentication, SDP offer
     R-->>S: SDP answer (candidates, certificate fingerprints)
-    Note over S,R: Close TCP signaling; establish WebRTC over UDP 1024
+    Note over S,R: Close TCP signaling, establish WebRTC over UDP 1024
     S->>R: DataChannel: establish Zenoh, subscribe to beni/session
     R-->>S: beni/session: current connection ID
     S->>R: DataChannel: application request
